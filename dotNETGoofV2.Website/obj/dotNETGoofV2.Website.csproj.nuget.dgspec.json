@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mattbrown/Desktop/SME_Work/dotNET-goof-v2/dotNETGoofV2.Website/dotNETGoofV2.Website.csproj": {}
+    "/workspace/d73a914f-2c5e-42fa-b5a4-28a70b5e4282/dotNETGoofV2.Website/dotNETGoofV2.Website.csproj": {}
   },
   "projects": {
-    "/Users/mattbrown/Desktop/SME_Work/dotNET-goof-v2/dotNETGoofV2.Website/dotNETGoofV2.Website.csproj": {
+    "/workspace/d73a914f-2c5e-42fa-b5a4-28a70b5e4282/dotNETGoofV2.Website/dotNETGoofV2.Website.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mattbrown/Desktop/SME_Work/dotNET-goof-v2/dotNETGoofV2.Website/dotNETGoofV2.Website.csproj",
+        "projectUniqueName": "/workspace/d73a914f-2c5e-42fa-b5a4-28a70b5e4282/dotNETGoofV2.Website/dotNETGoofV2.Website.csproj",
         "projectName": "dotNETGoofV2.Website",
-        "projectPath": "/Users/mattbrown/Desktop/SME_Work/dotNET-goof-v2/dotNETGoofV2.Website/dotNETGoofV2.Website.csproj",
-        "packagesPath": "/Users/mattbrown/.nuget/packages/",
-        "outputPath": "/Users/mattbrown/Desktop/SME_Work/dotNET-goof-v2/dotNETGoofV2.Website/obj/",
+        "projectPath": "/workspace/d73a914f-2c5e-42fa-b5a4-28a70b5e4282/dotNETGoofV2.Website/dotNETGoofV2.Website.csproj",
+        "packagesPath": "/tmp/.nuget",
+        "outputPath": "/workspace/d73a914f-2c5e-42fa-b5a4-28a70b5e4282/dotNETGoofV2.Website/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/mattbrown/.nuget/NuGet/NuGet.Config"
+          "/tmp/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -24,6 +24,7 @@
         },
         "frameworks": {
           "net5.0": {
+            "framework": "net5.0",
             "targetAlias": "net5.0",
             "projectReferences": {}
           }
@@ -32,10 +33,17 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net5.0": {
+          "framework": "net5.0",
           "targetAlias": "net5.0",
           "dependencies": {
             "Blogifier.Core": {
@@ -52,7 +60,7 @@
             },
             "Halibut": {
               "target": "Package",
-              "version": "[4.4.4, )"
+              "version": "[4.4.7, )"
             },
             "Microsoft.AspNet.SignalR": {
               "target": "Package",
@@ -97,10 +105,25 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -109,7 +132,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/opt/eco/dotnet/sdk/10.0.402/RuntimeIdentifierGraph.json"
         }
       }
     }
